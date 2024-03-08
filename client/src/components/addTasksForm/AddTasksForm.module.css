@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.form > :first-child {
+    width: 20rem;
+    padding: 1rem;
+    background-color: gainsboro;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+.form > :first-child ~ input {
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(59, 59, 255);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.form > :first-child ~ input:active {
+    background-color: rgb(18, 18, 255);
+    box-shadow: 0px 0px 9px 1px rgba(91, 91, 255, 0.801);
+}

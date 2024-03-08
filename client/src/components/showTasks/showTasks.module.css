@@ -1,0 +1,31 @@
+.task_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.task_container > div > button {
+    background-color: rgb(20, 19, 19);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+}
+.task_container > div > button:active {
+    background-color: rgb(40, 40, 40);
+}
+.task_container > div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.task_container > div > label {
+    display: flex;
+    gap: 1rem;
+}
+
+.task_container > div > label > input {
+    width: 1.2rem;
+    width: 1.2rem;
+}
